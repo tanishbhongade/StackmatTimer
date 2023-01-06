@@ -6,8 +6,8 @@
 #include<CapacitiveSensor.h>
 #include<LiquidCrystal.h>
 
-CapacitiveSensor CS1=CapacitiveSensor(10,9);// 10M resistor between pins 4 & 2, pin 2 is sensor pin, add a wire and or foil if desired
-CapacitiveSensor CS2=CapacitiveSensor(10,6);// 10M resistor between pins 4 & 6, pin 4"" is sensor pin, add a wire and or foil if desired
+CapacitiveSensor CS1=CapacitiveSensor(10,9);// 10M resistor between pins 10 & 9, pin 9 is sensor pin, add a wire and or foil if desired
+CapacitiveSensor CS2=CapacitiveSensor(10,6);// 10M resistor between pins 10 & 6, pin 6 is sensor pin, add a wire and or foil if desired
 
 LiquidCrystal LCD(12,11,5,4,3,2);
 
